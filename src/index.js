@@ -6,7 +6,7 @@ import * as serviceWorker from './serviceWorker';
 import 'bootstrap/dist/css/bootstrap.css';
 import Counter from './components/counterComponent';
 
-let element = <h1>Hello world</h1>
+// let element = <div><h1>Hello World</h1><button</div>
 
 // ReactDOM.render(element, document.getElementById('root'));
 ReactDOM.render(<Counter />, document.getElementById('root'));
